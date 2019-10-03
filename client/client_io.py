@@ -5,10 +5,10 @@ import datetime
 import json
 import os
 
-#lokale constante voor rapport lokatie
+# lokale constante voor rapport lokatie
 _REPORTER_JSON_PATH = os.path.join(tempfile.gettempdir(), "pypackage_reporter.json")
 
-#functie voor het controleren of er een nieuw rapport gemaakt dient te worden
+# functie voor het controleren of er een nieuw rapport gemaakt dient te worden
 def new_report_needed() -> bool:
 
     # check if a local report exists
